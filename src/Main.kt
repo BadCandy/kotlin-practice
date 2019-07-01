@@ -27,4 +27,6 @@ fun main(args: Array<String>) {
     println(getMnemonic(Color.RED))
     println(getWarmth(Color.ORANGE))
     println(mix(Color.ORANGE, Color.YELLOW))
+    println(eval(Sum(Sum(Num(1), Num(2)), Num(4))))
+    println(evalWithLogging(Sum(Sum(Num(1), Num(2)), Num(4))))
 }
